@@ -1,44 +1,45 @@
 <?xml version="1.0"?>
 <package>
     <name>ksv_deleteOrder</name>
-    <version>0.1.1</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Our Delete Order Extension allows you easy  to delete in  orders simple drop-down selection.</summary>
-    <description>1. Overview&#xD;
+    <description>&lt;h1&gt;1. Overview&lt;/h1&gt;&#xD;
 &#xD;
-	By default Magneto does not allow you to delete orders. Our Delete Order Magneto&#xD;
+	&lt;p&gt;By default Magneto does not allow you to delete orders. Our Delete Order Magneto	&#xD;
 	Extension allows you to delete orders in a safe way without any danger of losing&#xD;
-	data. We provide three options to delete any order:&#xD;
+	data. &lt;/p&gt;&#xD;
+&lt;p&gt;We provide three options to delete any order:&lt;/p&gt;&#xD;
 &#xD;
-	Delete any order from the order page list&#xD;
-	Delete any order from the order page&#xD;
-	Delete mass order from the order page list&#xD;
+	&lt;li&gt;Delete any order from the order page list&lt;/li&gt;&#xD;
+	&lt;li&gt;Delete any order from the order page&lt;/li&gt;&#xD;
+	&lt;li&gt;Delete mass order from the order page list&lt;/li&gt;&#xD;
 &#xD;
-2. Features&#xD;
+&lt;h2&gt;2. Features&lt;/h2&gt;&#xD;
 &#xD;
-	Easy to delete order in backend seamlessly through the Action dropdown box on the&#xD;
-	native Order Manager&#xD;
-	Easy to install&#xD;
-	Delete single order&#xD;
-	Delete mass orders&#xD;
+	&lt;li&gt;Easy to delete order in back end seamlessly through the Action drop down box on the&#xD;
+	native Order Manager&lt;/li&gt;&#xD;
+	&lt;li&gt;Easy to install&lt;/li&gt;&#xD;
+	&lt;li&gt;Delete single order&lt;/li&gt;&#xD;
+	&lt;li&gt;Delete mass orders&lt;/li&gt;&#xD;
 &#xD;
-	Compatibility with Magneto Community Editions&#xD;
+	&lt;li&gt;Compatibility with Magneto Community Editions&lt;/li&gt;&#xD;
 &#xD;
-3. Installation Process&#xD;
+&lt;h2&gt;3. Installation Process&lt;/h2&gt;&#xD;
 &#xD;
-	1. Install the extension through Magneto Connect.&#xD;
-	2. Go to System &gt; Cache Management &gt; Click button Flush Magneto Cache.&#xD;
-	3. Logout out and re-login.&#xD;
-	If you want to delete only a few orders, our Delete Order Magento Extension is the perfect&#xD;
-	solution for your business needs.</description>
-    <notes>New Version Updated</notes>
+	&lt;li&gt;1. Install the extension through Magneto Connect.&lt;/li&gt;&#xD;
+	&lt;li&gt;2. Go to System &amp;gt; Cache Management &amp;gt; Click button Flush Magneto Cache.&lt;/li&gt;&#xD;
+	&lt;li&gt;3. Logout out and re-login.&lt;/li&gt;&#xD;
+	&lt;li /&gt;&lt;p&gt;If you want to delete only a few orders, our Delete Order Magento Extension is the perfect&#xD;
+	solution for your business needs.&lt;/p&gt;</description>
+    <notes>Support Magento Community V1.9</notes>
     <authors><author><name>ksvcorporation</name><user>ksvcorporation</user><email>ksvcorporation@gmail.com</email></author></authors>
-    <date>2014-02-25</date>
-    <time>18:52:58</time>
-    <contents><target name="magecommunity"><dir name="Ksv"><dir name="DeleteOrders"><dir name="Helper"><file name="Data.php" hash="f85717f910bf0f36b4669e4a8c8f20fe"/></dir><dir name="Model"><file name="Observer.php" hash="c69bda4a88a8efc5ea0f858b556b113a"/></dir><dir name="controllers"><file name="IndexController.php" hash="40025f752b0ae23a5782459766244279"/></dir><dir name="etc"><file name="config.xml" hash="da3f208209aef3621d66325c3b1f27d7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ksv_DeleteOrders.xml" hash="5fe01d9b847a7362e81a1d1af9d61bea"/></dir></target></contents>
+    <date>2014-09-02</date>
+    <time>02:26:44</time>
+    <contents><target name="magecommunity"><dir name="Treasurebox"><dir name="Deleteorder"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="5d0056c133fcef6340273a47cb7e981a"/><dir name="Render"><file name="Delete.php" hash="2e629d5afda475171e8816ace7c754a9"/></dir><file name="View.php" hash="0fd166b2573001a9f68b6f578e90195b"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="fbe3e88dd7c8bd2e11c7b006cbb1246d"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="DeleteorderController.php" hash="f42adb9bedd091c682e2ad1e3cfc6b7a"/></dir></dir><dir name="etc"><file name="config.xml" hash="8fdb38f6e62bfbb89807328bb67e3dcc"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Treasurebox_Deleteorder.xml" hash="ac994dec147194878f70b22c958e5726"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="deleteorder.xml" hash="7d07207d7c1103b44526c9344d593354"/></dir></dir></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.15</max></php></required></dependencies>
 </package>
