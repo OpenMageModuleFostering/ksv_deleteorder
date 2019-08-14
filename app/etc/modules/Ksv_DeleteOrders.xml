@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ksv_DeleteOrders>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ksv_DeleteOrders>
+    </modules>
+</config>

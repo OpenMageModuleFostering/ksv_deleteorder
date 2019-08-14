@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+    <name>ksv_deleteOrder</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Our Delete Order Extension allows you easy  to delete in  orders simple drop-down selection.</summary>
+    <description>1. Overview&#xD;
+&#xD;
+	By default Magneto does not allow you to delete orders. Our Delete Order Magneto&#xD;
+	Extension allows you to delete orders in a safe way without any danger of losing&#xD;
+	data. We provide three options to delete any order:&#xD;
+&#xD;
+	Delete any order from the order page list&#xD;
+	Delete any order from the order page&#xD;
+	Delete mass order from the order page list&#xD;
+&#xD;
+2. Features&#xD;
+&#xD;
+	Easy to delete order in backend seamlessly through the Action dropdown box on the&#xD;
+	native Order Manager&#xD;
+	Easy to install&#xD;
+	Delete single order&#xD;
+	Delete mass orders&#xD;
+&#xD;
+	Compatibility with Magneto Community Editions&#xD;
+&#xD;
+3. Installation Process&#xD;
+&#xD;
+	1. Install the extension through Magneto Connect.&#xD;
+	2. Go to System &gt; Cache Management &gt; Click button Flush Magneto Cache.&#xD;
+	3. Logout out and re-login.&#xD;
+	If you want to delete only a few orders, our Delete Order Magento Extension is the perfect&#xD;
+	solution for your business needs.</description>
+    <notes>New Version Updated</notes>
+    <authors><author><name>ksvcorporation</name><user>ksvcorporation</user><email>ksvcorporation@gmail.com</email></author></authors>
+    <date>2014-02-25</date>
+    <time>18:52:58</time>
+    <contents><target name="magecommunity"><dir name="Ksv"><dir name="DeleteOrders"><dir name="Helper"><file name="Data.php" hash="f85717f910bf0f36b4669e4a8c8f20fe"/></dir><dir name="Model"><file name="Observer.php" hash="c69bda4a88a8efc5ea0f858b556b113a"/></dir><dir name="controllers"><file name="IndexController.php" hash="40025f752b0ae23a5782459766244279"/></dir><dir name="etc"><file name="config.xml" hash="da3f208209aef3621d66325c3b1f27d7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ksv_DeleteOrders.xml" hash="5fe01d9b847a7362e81a1d1af9d61bea"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
