@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/ksv_deleteOrder",
+    "name": "openmage-module-fostering\/ksv_deleteorder",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
