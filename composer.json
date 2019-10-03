@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ksv_deleteOrder",
+    "name": "OpenMageModuleFostering\/ksv_deleteOrder",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Our Delete Order Extension allows you easy  to delete in  orders simple drop-down selection.",
     "authors": [
-    {
-        "name": "ksvcorporation",
-        "email": "ksvcorporation@gmail.com"
-    }
-],
+        {
+            "name": "ksvcorporation",
+            "email": "ksvcorporation@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
